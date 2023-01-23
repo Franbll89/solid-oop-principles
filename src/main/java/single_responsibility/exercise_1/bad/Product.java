@@ -9,7 +9,11 @@ public class Product {
     }
 
     public double calculatePriceWithTax(Country country) {
-        return price + price * country.getVat();
+        return price + calculateTax(country);
+    }
+
+    private double calculateTax(Country country) {
+        return price * country.getVat();
     }
 
 }
