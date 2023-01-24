@@ -2,7 +2,7 @@ package liskov_substitution.bad;
 
 import java.math.BigDecimal;
 
-public class CurrentAccount extends Account {
+public class CurrentAccount extends AccountWithdrawable {
     @Override
     protected void deposit(BigDecimal amount) {
         // Deposit into CurrentAccount

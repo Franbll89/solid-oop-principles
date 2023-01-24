@@ -3,9 +3,9 @@ package liskov_substitution.bad;
 import java.math.BigDecimal;
 
 public class BankingAppWithdrawalService {
-    private Account account;
+    private AccountWithdrawable account;
 
-    public BankingAppWithdrawalService(Account account) {
+    public BankingAppWithdrawalService(AccountWithdrawable account) {
         this.account = account;
     }
 
