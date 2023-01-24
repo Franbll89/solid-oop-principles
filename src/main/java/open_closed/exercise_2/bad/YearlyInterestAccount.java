@@ -1,21 +1,14 @@
 package open_closed.exercise_2.bad;
 
-import java.util.UUID;
-
-public class YearlyInterestAccount {
+public class YearlyInterestAccount extends Account {
     private static final double YEARLY_INTEREST = 0.05;
     private static final double WITHDRAW_FEE = 1.5;
     private static final double TRANSFER_FEE = 2.5;
-    private final UUID accountId;
     private double balance;
 
     public YearlyInterestAccount(double balance) {
-        this.balance = balance;
-        accountId = UUID.randomUUID();
-    }
-
-    public UUID getAccountId() {
-        return accountId;
+        super(balance);
+        this.balance = getBalance();;
     }
 
     public double getBalance() {

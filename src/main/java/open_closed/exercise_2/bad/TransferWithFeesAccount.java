@@ -1,19 +1,12 @@
 package open_closed.exercise_2.bad;
 
-import java.util.UUID;
-
-public class TransferWithFeesAccount {
+public class TransferWithFeesAccount extends Account {
     private static final double TRANSFER_FEE = 5;
-    private final UUID accountId;
     private double balance;
 
     public TransferWithFeesAccount(double balance) {
-        this.balance = balance;
-        accountId = UUID.randomUUID();
-    }
-
-    public UUID getAccountId() {
-        return accountId;
+        super(balance);
+        this.balance = getBalance();
     }
 
     public double getBalance() {

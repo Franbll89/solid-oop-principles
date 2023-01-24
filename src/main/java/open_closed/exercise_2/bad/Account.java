@@ -9,7 +9,6 @@ public abstract class Account {
     private UUID accountId = UUID.randomUUID();
     private double balance;
 
-
     protected Account(double balance) {
         this.balance = balance;
     }
@@ -28,6 +27,4 @@ public abstract class Account {
     }
 
     //public abstract double withdraw(double amount);
-
-
 }

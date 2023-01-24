@@ -1,7 +1,5 @@
 package open_closed.exercise_2.bad;
 
-import java.util.UUID;
-
 public class BasicAccount extends Account {
 
     private static final double WITHDRAW_FEE = 0.1;
