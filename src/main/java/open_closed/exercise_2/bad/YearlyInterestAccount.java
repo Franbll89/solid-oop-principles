@@ -8,7 +8,7 @@ public class YearlyInterestAccount extends Account {
 
     public YearlyInterestAccount(double balance) {
         super(balance);
-        this.balance = getBalance();;
+        this.balance = getBalance();
     }
 
     public double getBalance() {

@@ -4,7 +4,6 @@ import java.util.UUID;
 
 public abstract class Account {
     //private double YEARLY_INTEREST;
-    private double WITHDRAW_FEE;
     //private double TRANSFER_FEE;
     private UUID accountId = UUID.randomUUID();
     private double balance;
@@ -26,5 +25,5 @@ public abstract class Account {
         return balance;
     }
 
-    //public abstract double withdraw(double amount);
+    public abstract double withdraw(double amount);
 }
