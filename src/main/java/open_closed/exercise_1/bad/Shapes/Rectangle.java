@@ -1,6 +1,6 @@
-package open_closed.exercise_1.bad;
+package open_closed.exercise_1.bad.Shapes;
 
-public class Rectangle extends Shape {
+public class Rectangle implements Shape {
     private final double width;
     private final double length;
 

@@ -1,9 +1,9 @@
-package open_closed.exercise_1.bad;
+package open_closed.exercise_1.bad.Shapes;
 
 import static java.lang.Math.PI;
 import static java.lang.Math.pow;
 
-public class Circle extends Shape {
+public class Circle implements Shape {
     private final double radius;
 
     public Circle(double radius) {

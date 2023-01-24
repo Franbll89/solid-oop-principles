@@ -1,7 +1,7 @@
 package open_closed.exercise_1.good;
 
-import open_closed.exercise_1.bad.Rectangle;
-import open_closed.exercise_1.bad.Shape;
+import open_closed.exercise_1.bad.Shapes.Rectangle;
+import open_closed.exercise_1.bad.Shapes.Shape;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

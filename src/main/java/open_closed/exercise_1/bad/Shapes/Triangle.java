@@ -1,6 +1,6 @@
-package open_closed.exercise_1.bad;
+package open_closed.exercise_1.bad.Shapes;
 
-public class Triangle extends Shape {
+public class Triangle implements Shape {
     private final double a;
     private final double b;
     private final double c;

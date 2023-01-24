@@ -1,6 +1,6 @@
-package open_closed.exercise_1.bad;
+package open_closed.exercise_1.bad.Shapes;
 
-public class Hexagon extends Shape{
+public class Hexagon implements Shape{
 
     private final double side;
 

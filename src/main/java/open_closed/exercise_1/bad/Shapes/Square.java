@@ -1,8 +1,8 @@
-package open_closed.exercise_1.bad;
+package open_closed.exercise_1.bad.Shapes;
 
 import static java.lang.Math.pow;
 
-public class Square extends Shape {
+public class Square implements Shape {
     private final double side;
 
     public Square(double side) {
