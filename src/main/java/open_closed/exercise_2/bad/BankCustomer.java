@@ -16,6 +16,7 @@ public class BankCustomer {
         checkingAccounts = new ArrayList<>();
         monthlyInterestAccounts = new ArrayList<>();
         yearlyInterestAccounts = new ArrayList<>();
+        //accounts = new ArrayList<>();
     }
 
     public void openBasicAccount(double initialBalance) {

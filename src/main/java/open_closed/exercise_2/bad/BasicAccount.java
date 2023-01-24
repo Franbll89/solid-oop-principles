@@ -2,29 +2,15 @@ package open_closed.exercise_2.bad;
 
 import java.util.UUID;
 
-public class BasicAccount {
+public class BasicAccount extends Account {
 
     private static final double WITHDRAW_FEE = 0.1;
     private static final double TRANSFER_FEE = 1.5;
-    private final UUID accountId;
     private double balance;
 
     public BasicAccount(double balance) {
-        this.balance = balance;
-        accountId = UUID.randomUUID();
-    }
-
-    public UUID getAccountId() {
-        return accountId;
-    }
-
-    public double getBalance() {
-        return balance;
-    }
-
-    public double deposit(double amount) {
-        balance += amount;
-        return balance;
+        super(balance);
+        this.balance = getBalance();
     }
 
     public double withdraw(double amount) {
