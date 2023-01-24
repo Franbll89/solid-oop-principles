@@ -5,8 +5,6 @@ public interface Animal {
 
     public String walk();
 
-    public String fly();
-
     public String swim();
 
     public String bark();

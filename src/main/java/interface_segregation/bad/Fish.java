@@ -11,10 +11,6 @@ public class Fish implements Animal{
         return null;
     }
 
-    @Override
-    public String fly() {
-        return null;
-    }
 
     @Override
     public String swim() {

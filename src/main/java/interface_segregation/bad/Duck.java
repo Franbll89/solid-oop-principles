@@ -1,6 +1,6 @@
 package interface_segregation.bad;
 
-public class Duck implements Animal {
+public class Duck implements Birds, Animal {
 
     @Override
     public String nameOfAnimal() {
