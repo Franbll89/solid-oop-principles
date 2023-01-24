@@ -22,4 +22,14 @@ public class Triangle extends Shape {
     public double getC() {
         return c;
     }
+
+    @Override
+    public double getArea() {
+        double semiperimeter = (this.getA() + this.getB() + this.getC()) / 2;
+        return Math.sqrt(
+                semiperimeter *
+                        (semiperimeter - this.getA()) *
+                        (semiperimeter - this.getB()) *
+                        (semiperimeter - this.getC()));
+    }
 }
