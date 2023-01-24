@@ -1,16 +1,10 @@
 package interface_segregation.bad;
 
-public class Fish implements Animal{
+public class Fish implements AquaticAnimal{
     @Override
     public String nameOfAnimal() {
         return "fish";
     }
-
-    @Override
-    public String walk() {
-        return null;
-    }
-
 
     @Override
     public String swim() {
@@ -18,17 +12,7 @@ public class Fish implements Animal{
     }
 
     @Override
-    public String bark() {
-        return null;
-    }
-
-    @Override
-    public String quack() {
-        return null;
-    }
-
-    @Override
-    public String meow() {
+    public String talk() {
         return null;
     }
 }
